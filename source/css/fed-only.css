@@ -1,0 +1,364 @@
+/* mixin to add vendor prefixes to transitions */
+/* cross browser opacity */
+/* primary colors */
+/* brand colors */
+.fed-page-container {
+  padding: 1.25rem 1.25rem;
+  max-width: 1280px;
+  background-color: #ffffff;
+  margin: auto;
+}
+
+.fed-page-header {
+  margin: 1.875rem 0;
+}
+
+.fed-page-title {
+  margin: 0 0 0.625rem;
+}
+
+.fed-page-back {
+  color: #0079C2;
+  display: inline-block;
+}
+
+.fed-section {
+  background-color: #F5F5F5;
+  padding: 1.25rem;
+  margin-bottom: 1.25rem;
+}
+
+.-light {
+  background-color: #ffffff;
+}
+
+.fed-section-title {
+  margin-bottom: 1.25rem;
+}
+
+.fed-section-info {
+  margin-bottom: 1.25rem;
+}
+
+.fed-section-group {
+  margin-bottom: 1.25rem;
+}
+
+.fed-index-item {
+  display: flex;
+  background: #F5F5F5;
+  color: #0079C2;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.625rem 1.125rem;
+  margin-bottom: 0.625rem;
+}
+
+.fed-index-item:hover {
+  background: #e6e6e6;
+}
+
+.fed-element-group {
+  margin-bottom: 3.125rem;
+}
+
+.fed-element-group p {
+  margin: 0.625rem 0;
+}
+
+.fed-element-title {
+  margin-top: 1.875rem;
+  margin-bottom: 0.625rem;
+}
+
+pre {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.font__section--alda h3,
+.font__section--alda p {
+  font-family: "alda-pro-ny-life", Arial, sans-serif;
+}
+
+.font__section--effra h3,
+.font__section--effra p {
+  font-family: "effra-pro-ny-life", Helvetica, sans-serif;
+}
+
+.fed-background-opaque {
+  background-color: #0079C2;
+}
+
+/* colors */
+.fed-global_item {
+  box-shadow: 0px 0px 10px rgba(51, 51, 51, 0.15);
+  width: 9.375rem;
+  height: 9.375rem;
+  border-radius: 4px;
+}
+
+.fed-global_item .-top {
+  border-radius: 4px 4px 0 0;
+  height: 50%;
+}
+
+.fed-global_item .-bottom {
+  border-radius: 0 0 4px 4px;
+  height: 50%;
+  background: #ffffff;
+}
+
+.fed-global_item .-bottom p {
+  font-size: 12px;
+  font-family: "effra-pro-ny-life", Helvetica, sans-serif;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100px 10px 100px 10px 100px;
+  -ms-grid-rows: 100px 10px 100px;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+}
+
+.cmp-breaker {
+  margin: 1rem 0;
+}
+
+error {
+  color: red;
+}
+
+.-white {
+  background: #ffffff;
+}
+
+.-black {
+  background: #171717;
+}
+
+.-brand-blue {
+  background: #0079C2;
+}
+
+.-light-gray {
+  background: #F5F5F5;
+}
+
+.-medium-gray {
+  background: #CDCDCD;
+}
+
+.-dark-gray {
+  background: #666666;
+}
+
+.-medium-salmon {
+  background: #F6E8EC;
+}
+
+.-medium-twilight {
+  background: #EBE7F2;
+}
+
+.-medium-dusk {
+  background: #E6E9F0;
+}
+
+.-medium-rain {
+  background: #E0EDF3;
+}
+
+.-medium-palm {
+  background: #EBF0EA;
+}
+
+.-medium-gold {
+  background: #FBF0E7;
+}
+
+.-medium-sunset {
+  background: #F8E8E2;
+}
+
+.-medium-quartz {
+  background: #E9E8E8;
+}
+
+.-dark-salmon {
+  background: #985570;
+}
+
+.-dark-twilight {
+  background: #5C4C79;
+}
+
+.-dark-dusk {
+  background: #424B6C;
+}
+
+.-dark-rain {
+  background: #205F7C;
+}
+
+.-dark-palm {
+  background: #466E5A;
+}
+
+.-dark-gold {
+  background: #A76936;
+}
+
+.-dark-sunset {
+  background: #745342;
+}
+
+.-dark-quartz {
+  background: #0A3C53;
+}
+
+/***** Classes added for typography page Start *****/
+.test {
+  background: #ffffff;
+}
+
+.section-heading {
+  color: #171717;
+  font-family: "effra-pro-ny-life", Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 3.5px;
+  line-height: 21px;
+}
+
+.section-details {
+  color: #666666;
+  font-family: "effra-pro-ny-life", Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.cmp-hero__heading {
+  padding: 67px 1.25rem !important;
+}
+
+.cmp-hero__heading h1 {
+  padding-right: 100px;
+}
+
+.cmp-hero__heading .section-heading,
+.cmp-hero__heading .section-details {
+  color: #ffffff;
+}
+
+.cmp-title-banner {
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+
+.cmp-title-banner__body ul li {
+  list-style: none;
+  color: #666666;
+  font-family: "effra-pro-ny-life", Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+@media (max-width: 767.98px) {
+  .cmp-hero__heading .section-heading,
+  .cmp-hero__heading .section-details {
+    color: #171717;
+  }
+}
+
+/***** Classes added for typography page End *****/
+.cmp-hero__heading {
+  background-color: #171717;
+  color: #ffffff;
+  padding: 1.25rem;
+}
+
+.cmp-hero__heading h1 {
+  font-size: 48px;
+  font-size: 3rem;
+  line-height: 4.5rem;
+}
+
+@media (max-width: 767.98px) {
+  .cmp-hero__heading {
+    background-color: #ffffff;
+    color: #171717;
+  }
+  .cmp-hero__heading h1 {
+    font-size: 40px;
+    font-size: 2.5rem;
+    line-height: 3.75rem;
+    line-height: 3.6rem;
+  }
+}
+
+.cmp-category h1 {
+  line-height: 4.25rem;
+}
+
+@media (max-width: 767.98px) {
+  .cmp-category h1 {
+    font-size: 58px;
+    font-size: 3.625rem;
+    line-height: 5.4375rem;
+  }
+}
+
+.cmp-detail h1 {
+  font-size: 58px;
+  font-size: 3.625rem;
+  line-height: 5.4375rem;
+  line-height: 4.25rem;
+}
+
+@media (max-width: 767.98px) {
+  .cmp-detail h1 {
+    font-size: 48px;
+    font-size: 3rem;
+    line-height: 4.5rem;
+    line-height: 3.75rem;
+  }
+}
+
+.cmp-title-banner__title--dark-salmon h1, .cmp-title-banner__title--dark-salmon p {
+  color: #985570;
+}
+
+.cmp-title-banner__title--dark-twilight h1, .cmp-title-banner__title--dark-twilight p {
+  color: #5C4C79;
+}
+
+.cmp-title-banner__title--dark-dusk h1, .cmp-title-banner__title--dark-dusk p {
+  color: #424B6C;
+}
+
+.cmp-title-banner__title--dark-rain h1, .cmp-title-banner__title--dark-rain p {
+  color: #205F7C;
+}
+
+.cmp-title-banner__title--dark-palm h1, .cmp-title-banner__title--dark-palm p {
+  color: #466E5A;
+}
+
+.cmp-title-banner__title--dark-gold h1, .cmp-title-banner__title--dark-gold p {
+  color: #A76936;
+}
+
+.cmp-title-banner__title--dark-sunset h1, .cmp-title-banner__title--dark-sunset p {
+  color: #745342;
+}
+
+.cmp-title-banner__title--dark-quartz h1, .cmp-title-banner__title--dark-quartz p {
+  color: #0A3C53;
+}
+
+/*# sourceMappingURL=fed-only.css.map */
