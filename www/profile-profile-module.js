@@ -1,0 +1,102 @@
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["profile-profile-module"],{
+
+/***/ "./src/app/pages/profile/profile.component.html":
+/*!******************************************************!*\
+  !*** ./src/app/pages/profile/profile.component.html ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<ion-content>\n    <ion-toolbar class=\"height-padding-2\">\n        <ion-buttons slot=\"end\">\n            <ion-button class=\"follow-btn\">Follow</ion-button>\n        </ion-buttons>\n    </ion-toolbar>\n    <div class=\"row\">\n        <img class=\"avatar width-margin-2\" src=\"https://avatars0.githubusercontent.com/u/13732623?s=460&v=4\" />\n        <div class=\"column\">\n            <app-heading class=\"bottom-margin-1\" medium bold>Sean Perkins</app-heading>\n            <app-text>Real life Tony Stark. Dev Expert. Angular Guru. HR Nightmare.</app-text>\n        </div>\n    </div>\n    <div class=\"row top-margin-3 width-padding-2 stats\">\n        <div class=\"column text-center\">\n            <app-heading small bold>6.2k</app-heading>\n            <app-text>Likes</app-text>\n        </div>\n        <div class=\"column text-center\">\n            <app-heading small bold>8.4k</app-heading>\n            <app-text>Followers</app-text>\n        </div>\n        <div class=\"column text-center\">\n            <app-heading small bold>3.7k</app-heading>\n            <app-text>Shots</app-text>\n        </div>\n        <div class=\"column text-center\">\n            <app-heading small bold>1.5k</app-heading>\n            <app-text>Focus</app-text>\n        </div>\n    </div>\n</ion-content>\n"
+
+/***/ }),
+
+/***/ "./src/app/pages/profile/profile.component.scss":
+/*!******************************************************!*\
+  !*** ./src/app/pages/profile/profile.component.scss ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".row {\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  justify-content: space-between; }\n\n.column {\n  display: flex;\n  flex-direction: column; }\n\n.avatar {\n  border-radius: 9999px;\n  width: 95px;\n  height: 95px; }\n\nion-toolbar {\n  --ion-toolbar-color: var(--ion-color-dark);\n  --padding-end: 0px; }\n\n.follow-btn {\n  --background-activated: var(--ion-color-light-shade);\n  --color-activated: var(--ion-color-dark);\n  --background: var(--ion-color-light-shade);\n  --color: var(--ion-color-dark);\n  --background-focused: var(--ion-color-light-shade);\n  --color-focused: var(--ion-color-dark);\n  --border-radius: 0;\n  --padding-end: 20px;\n  --padding-start: 20px;\n  border-top-left-radius: 50px;\n  border-bottom-left-radius: 50px;\n  overflow: hidden;\n  -webkit-margin-end: 0px;\n          margin-inline-end: 0px;\n  height: 40px; }\n\n.stats app-text {\n  color: var(--ion-color-medium); }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9Vc2Vycy9naW5vLmJlcm5hcmRpL3pvcm9zdGFuZy5naXRodWIuaW8vem9yb3N0YW5nLmdpdGh1Yi5pby9zcmMvYXBwL3BhZ2VzL3Byb2ZpbGUvcHJvZmlsZS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFFQTtFQUNJLGFBQWE7RUFDYixtQkFBbUI7RUFDbkIsbUJBQW1CO0VBQ25CLDhCQUE4QixFQUFBOztBQUdsQztFQUNJLGFBQWE7RUFDYixzQkFBc0IsRUFBQTs7QUFHMUI7RUFDSSxxQkFBcUI7RUFDckIsV0FBVztFQUNYLFlBQVksRUFBQTs7QUFHaEI7RUFDSSwwQ0FBb0I7RUFDcEIsa0JBQWMsRUFBQTs7QUFHbEI7RUFDSSxvREFBdUI7RUFDdkIsd0NBQWtCO0VBQ2xCLDBDQUFhO0VBQ2IsOEJBQVE7RUFDUixrREFBcUI7RUFDckIsc0NBQWdCO0VBQ2hCLGtCQUFnQjtFQUNoQixtQkFBYztFQUNkLHFCQUFnQjtFQUNoQiw0QkFBNEI7RUFDNUIsK0JBQStCO0VBQy9CLGdCQUFnQjtFQUNoQix1QkFBc0I7VUFBdEIsc0JBQXNCO0VBQ3RCLFlBQVksRUFBQTs7QUFHaEI7RUFFUSw4QkFBOEIsRUFBQSIsImZpbGUiOiJzcmMvYXBwL3BhZ2VzL3Byb2ZpbGUvcHJvZmlsZS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIlxuXG4ucm93IHtcbiAgICBkaXNwbGF5OiBmbGV4O1xuICAgIGZsZXgtZGlyZWN0aW9uOiByb3c7XG4gICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcbiAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47XG59XG5cbi5jb2x1bW4ge1xuICAgIGRpc3BsYXk6IGZsZXg7XG4gICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbn1cblxuLmF2YXRhciB7XG4gICAgYm9yZGVyLXJhZGl1czogOTk5OXB4O1xuICAgIHdpZHRoOiA5NXB4O1xuICAgIGhlaWdodDogOTVweDtcbn1cblxuaW9uLXRvb2xiYXIge1xuICAgIC0taW9uLXRvb2xiYXItY29sb3I6IHZhcigtLWlvbi1jb2xvci1kYXJrKTtcbiAgICAtLXBhZGRpbmctZW5kOiAwcHg7XG59XG5cbi5mb2xsb3ctYnRuIHtcbiAgICAtLWJhY2tncm91bmQtYWN0aXZhdGVkOiB2YXIoLS1pb24tY29sb3ItbGlnaHQtc2hhZGUpO1xuICAgIC0tY29sb3ItYWN0aXZhdGVkOiB2YXIoLS1pb24tY29sb3ItZGFyayk7XG4gICAgLS1iYWNrZ3JvdW5kOiB2YXIoLS1pb24tY29sb3ItbGlnaHQtc2hhZGUpO1xuICAgIC0tY29sb3I6IHZhcigtLWlvbi1jb2xvci1kYXJrKTtcbiAgICAtLWJhY2tncm91bmQtZm9jdXNlZDogdmFyKC0taW9uLWNvbG9yLWxpZ2h0LXNoYWRlKTtcbiAgICAtLWNvbG9yLWZvY3VzZWQ6IHZhcigtLWlvbi1jb2xvci1kYXJrKTtcbiAgICAtLWJvcmRlci1yYWRpdXM6IDA7XG4gICAgLS1wYWRkaW5nLWVuZDogMjBweDtcbiAgICAtLXBhZGRpbmctc3RhcnQ6IDIwcHg7XG4gICAgYm9yZGVyLXRvcC1sZWZ0LXJhZGl1czogNTBweDtcbiAgICBib3JkZXItYm90dG9tLWxlZnQtcmFkaXVzOiA1MHB4O1xuICAgIG92ZXJmbG93OiBoaWRkZW47XG4gICAgbWFyZ2luLWlubGluZS1lbmQ6IDBweDtcbiAgICBoZWlnaHQ6IDQwcHg7XG59XG5cbi5zdGF0cyB7XG4gICAgYXBwLXRleHQge1xuICAgICAgICBjb2xvcjogdmFyKC0taW9uLWNvbG9yLW1lZGl1bSk7XG4gICAgfVxufVxuIl19 */"
+
+/***/ }),
+
+/***/ "./src/app/pages/profile/profile.component.ts":
+/*!****************************************************!*\
+  !*** ./src/app/pages/profile/profile.component.ts ***!
+  \****************************************************/
+/*! exports provided: ProfilePageComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProfilePageComponent", function() { return ProfilePageComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+
+var ProfilePageComponent = /** @class */ (function () {
+    function ProfilePageComponent() {
+    }
+    ProfilePageComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-profile',
+            template: __webpack_require__(/*! ./profile.component.html */ "./src/app/pages/profile/profile.component.html"),
+            styles: [__webpack_require__(/*! ./profile.component.scss */ "./src/app/pages/profile/profile.component.scss")]
+        })
+    ], ProfilePageComponent);
+    return ProfilePageComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/pages/profile/profile.module.ts":
+/*!*************************************************!*\
+  !*** ./src/app/pages/profile/profile.module.ts ***!
+  \*************************************************/
+/*! exports provided: ProfilePageModule */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProfilePageModule", function() { return ProfilePageModule; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/router */ "./node_modules/@angular/router/fesm5/router.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var _profile_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./profile.component */ "./src/app/pages/profile/profile.component.ts");
+/* harmony import */ var _shared_shared_module__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../shared/shared.module */ "./src/app/shared/shared.module.ts");
+
+
+
+
+
+
+var ProfilePageModule = /** @class */ (function () {
+    function ProfilePageModule() {
+    }
+    ProfilePageModule = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_2__["NgModule"])({
+            imports: [
+                _shared_shared_module__WEBPACK_IMPORTED_MODULE_5__["SharedModule"],
+                _angular_forms__WEBPACK_IMPORTED_MODULE_3__["FormsModule"],
+                _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"].forChild([{ path: '', component: _profile_component__WEBPACK_IMPORTED_MODULE_4__["ProfilePageComponent"] }])
+            ],
+            declarations: [_profile_component__WEBPACK_IMPORTED_MODULE_4__["ProfilePageComponent"]],
+            schemas: [
+                _angular_core__WEBPACK_IMPORTED_MODULE_2__["CUSTOM_ELEMENTS_SCHEMA"]
+            ]
+        })
+    ], ProfilePageModule);
+    return ProfilePageModule;
+}());
+
+
+
+/***/ })
+
+}]);
+//# sourceMappingURL=profile-profile-module.js.map
